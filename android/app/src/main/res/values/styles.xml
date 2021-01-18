@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6175AC</item>
+        <item name="colorPrimaryDark">#6175AC</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--custom custom_font_family-family 적용-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+</resources>
